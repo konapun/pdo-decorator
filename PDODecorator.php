@@ -11,5 +11,4 @@ include_once($core . 'PDOStatementDecorator.php');
 
 // Included decorators
 include_once($decorator . 'TimedQueryDecorator.php');
-include_once($decorator . 'ResultsFileCacheDecorator.php');
 ?>

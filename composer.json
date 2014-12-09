@@ -1,0 +1,14 @@
+{
+  "name": "konapun/pdo-decorator",
+  "description": "A decorator interface for PDO and some basic decorators",
+  "version": "1.0.0",
+  "type": "library",
+  "keywords": ["database", "pdo", "oracle", "mysql", "postgres", "decorator"],
+  "homepage": "https://github.com/konapun/pdo-decorator",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bremen Braun"
+    }
+  ]
+}
