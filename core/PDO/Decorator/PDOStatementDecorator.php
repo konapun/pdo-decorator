@@ -52,11 +52,11 @@ abstract class PDOStatementDecorator implements \IteratorAggregate, PDOStatement
     return $this->concreteStatement->execute($input_parameters);
   }
 
-  function fetch($fetch_style=null, $cursor_orientation=\PDO::FETCH_ORI_NEXT, $cursor_offset=0) {
+  function fetch($fetch_style=\PDO::FETCH_BOTH, $cursor_orientation=\PDO::FETCH_ORI_NEXT, $cursor_offset=0) {
     return $this->concreteStatement->fetch($fetch_style, $cursor_orientation, $cursor_offset);
   }
 
-  function fetchAll($fetch_style=null, $fetch_argument=null, $ctor_args=array()) {
+  function fetchAll($fetch_style=\PDO::FETCH_BOTH, $fetch_argument=null, $ctor_args=array()) {
     return $this->concreteStatement->fetchAll($fetch_style, $fetch_argument, $ctor_args);
   }
 

@@ -10,5 +10,8 @@
     {
       "name": "Bremen Braun"
     }
-  ]
+  ],
+  "require": {
+    "php": ">=5.3"
+  }
 }
